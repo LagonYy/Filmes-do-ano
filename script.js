@@ -12,6 +12,10 @@ const filmes = {
             title: "Matrix",
             poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/dqFTOD2Al6ovvDi046mQqnLBLwc.jpg"
         },
+        {
+            title: "Acabe com Eles",
+            poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/2jskL5eOFTQknpRalJ4chVYyuFo.jpg"
+        }
     ],
 
     fev: [],
