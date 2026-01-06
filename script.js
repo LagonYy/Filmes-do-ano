@@ -15,6 +15,14 @@ const filmes = {
         {
             title: "Bring Them Down",
             poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/2jskL5eOFTQknpRalJ4chVYyuFo.jpg"
+        },
+        {
+            title: "Her",
+            poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg"
+        },
+        {
+            title: "The Big Short",
+            poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/znvo8sEcGSHaZ9C59dqQLYf0YAC.jpg"
         }
     ],
 

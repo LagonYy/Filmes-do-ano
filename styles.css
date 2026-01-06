@@ -1,10 +1,15 @@
+:root {
+    --primary-color: #F0F6F0;
+    --background-color: #222323;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #222323;
-    color: #F0F6F0;
+    background: var(--background-color);
+    color: var(--primary-color);
     font-family: "Jersey 10";
     padding: 20px;
     text-align: center;
@@ -15,7 +20,7 @@ body {
 }
 
 h1 {
-    border: #F0F6F0 1px solid;
+    border: var(--primary-color) 1px solid;
     border-radius: 8px;
     margin-bottom: 40px;
     padding: 10px;
@@ -30,7 +35,7 @@ h1 {
 }
 
 .month {
-    border: 1px solid #F0F6F0;
+    border: 1px solid var(--primary-color);
     border-radius: 8px;
     padding: 10px;
     min-height: 500px;
@@ -38,7 +43,7 @@ h1 {
 
 .month h2 {
     font-size: 30px;
-    border: 1px solid #F0F6F0;
+    border: 1px solid var(--primary-color);
     border-radius: 6px;
     padding: 10px;
     margin: 0 0 20px 0;
@@ -76,10 +81,10 @@ h1 {
     position: absolute;
     bottom: 110%;
     left: 50%;
-    transform: translateX(-50%);
-    background: #222323;
-    border: #F0F6F0 1px solid;
-    color: #F0F6F0;
+    transform: translateX(-50%, -20%);
+    background: var(--background-color);
+    border: var(--primary-color) 1px solid;
+    color: var(--primary-color);
     padding: 6px 10px;
     border-radius: 4px;
     font-size: 20px;
@@ -95,7 +100,7 @@ h1 {
 }
 
 footer {
-    border: 1px solid #F0F6F0;
+    border: 1px solid var(--primary-color);
     margin-top: 40px;
     border-radius: 8px;
 }
